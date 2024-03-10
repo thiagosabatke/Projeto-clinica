@@ -1,0 +1,144 @@
+body {
+    background-color: #147086;
+    color: #D89E1A;
+    font: normal 16px Arial;
+}
+
+.cabecalho {
+    background-color: #075A6D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+}
+
+
+.logoImg {
+    max-width: 250px;
+    max-height: 250px;
+    width: auto;
+    height: auto;
+    border-radius: 50%;
+    border: 4px solid;
+    margin: 15px;
+}
+
+.texto-cabecalho {
+    text-align: center;
+    font-size: 2em;
+    margin: 40px;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 600px;
+}
+
+.menu {
+    height: 100%;
+    width: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.menu .lista-desordenada li a {
+    text-decoration: none;
+    color: white;
+}
+
+.lista-desordenada {
+    align-items: center;
+}
+
+.lista {
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 15px;
+    width: 100%;
+    background-color: #D89E1A;
+}
+
+.conteudo {
+    color: #D89E1A;
+    margin: 50px;
+    display: flex;
+    width: 75%;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1.5em;
+}
+
+.contato{
+    display: inline-flex;
+}
+
+.rodape {
+    background-color: #D89E1A;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.rodape-texto {
+    text-align: center;
+    color: white;
+}
+
+.link-social{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+table{
+    border: 2px solid ;
+}
+
+table tbody tr:nth-child(even) td{
+    background-color: #407F7F;
+}
+
+td{
+    text-align: center;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.botao-cadastro{
+    background-color: #023d4b;
+    border: none;
+    color: white;
+    width: 30%;
+    height: 30px;
+    margin-top: 5px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+input,
+textarea {
+    background-color: #e9d6ab;
+    border: none;
+    margin: 5px;
+}
+
+.contato-clinica{
+    margin: 20px;
+    position: relative;
+    left: 50p
+}
+
+.maps-inframe{
+    width: 800x;
+    height: 300px;
+    border-radius: 15px;
+}
