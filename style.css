@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: #147086;
     color: #D89E1A;
@@ -9,6 +14,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 30vh;
     border-radius: 15px;
 }
 
@@ -21,6 +27,7 @@ body {
     border-radius: 50%;
     border: 4px solid;
     margin: 15px;
+    box-sizing: 5px 5px 5px black;
 }
 
 .texto-cabecalho {
@@ -33,7 +40,7 @@ body {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    height: 600px;
+    height: 60vh;
 }
 
 .menu {
@@ -71,7 +78,7 @@ body {
     font-size: 1.5em;
 }
 
-.contato{
+.contato {
     display: inline-flex;
 }
 
@@ -81,7 +88,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50px;
+    height: 10vh;
 }
 
 .rodape-texto {
@@ -89,31 +96,36 @@ body {
     color: white;
 }
 
-.link-social{
+.link-social {
     text-decoration: none;
     color: white;
     font-size: 18px;
 }
 
-table{
-    border: 2px solid ;
+.link-social:hover {
+    text-decoration: underline;
+    color: whitesmoke;
 }
 
-table tbody tr:nth-child(even) td{
+table {
+    border: 2px solid;
+}
+
+table tbody tr:nth-child(even) td {
     background-color: #407F7F;
 }
 
-td{
+td {
     text-align: center;
 }
 
-.formulario{
+.formulario {
     display: flex;
     flex-direction: column;
     margin-top: 15px;
 }
 
-.botao-cadastro{
+.botao-cadastro {
     background-color: #023d4b;
     border: none;
     color: white;
@@ -131,13 +143,13 @@ textarea {
     margin: 5px;
 }
 
-.contato-clinica{
+.contato-clinica {
     margin: 20px;
     position: relative;
     left: 50p
 }
 
-.maps-inframe{
+.maps-inframe {
     width: 800x;
     height: 300px;
     border-radius: 15px;
